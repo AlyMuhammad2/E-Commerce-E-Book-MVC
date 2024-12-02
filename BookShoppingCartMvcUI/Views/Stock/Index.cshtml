@@ -1,0 +1,89 @@
+﻿@model IEnumerable<StockDisplayModel>
+@{
+    Layout = "_AdminLayout";
+}
+<h2>Stocks</h2>
+
+<form asp-action="Index" method="get" class="my-2 d-flex gap-2">
+    <input type="text" name="sTerm" class="form-control w-25" placeholder="Search by book" />
+    <img src="/images/search.png" class="searchImg" />
+    <button type="submit" class="btn btn-primary">Find</button>
+    <a asp-action="Index" asp-controller="Stock" class="btn btn-primary">Clear</a>
+</form>
+
+<table class="table table-bordered ">
+  <tr>
+    <th>Book</th>
+    <th>Stock</th>
+    <th>Actions</th>
+  </tr>
+  @foreach(var item in Model)
+  {
+    <tr>
+      <td>@item.BookName</td> 
+      <td>@item.Quantity</td> 
+      <td>
+         <a asp-action="ManangeStock" asp-controller="Stock" asp-route-bookId="@item.BookId" class="btn btn-info"> Update Stock</a>
+      </td>
+    </tr>
+  }
+</table>
+<style>
+    body {
+        background-color: rgb(250, 248, 245) !important;
+    }
+    tr {
+        text-align: center;
+    }
+    tr:first-of-type {
+        background-color: rgb(238,229,218);
+    }
+    th {
+        color: #7a5e57;
+    }
+    tr:hover {
+        background-color: #7a5e57;
+        color: white;
+    }
+    tr:hover th {
+        color: white;
+    }
+    .btn.btn-info {
+        background: linear-gradient(90deg, rgba(64,89,111,1) 0%, rgba(17,44,68,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+        color: white;
+        border: none;
+    }
+    .btn.btn-info:hover {
+        background: linear-gradient(90deg, rgba(40,67,90,1) 0%, rgba(0,0,0,1) 100%);
+    }
+    .my-2.d-flex.gap-2 {
+        position: relative;
+    }
+    .searchImg {
+        height: 27px;
+        position: absolute;
+        top: 5px;
+        left: 15px;
+    }
+    .w-25 {
+        background-color: rgb(238,229,218) !important;
+        border-radius: 30px;
+        padding-left: 55px;
+        border: none;
+        outline: none;
+    }
+    .w-25::placeholder {
+        color: #7a5e57;
+    }
+    .btn.btn-primary {
+        background: linear-gradient(90deg, rgba(87,120,150,1) 0%, rgba(29,74,115,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+    }
+    .btn.btn-primary:hover {
+        background: linear-gradient(90deg, rgba(45,75,100,1) 0%, rgba(9,17,23,1) 100%);
+    }
+</style>
+

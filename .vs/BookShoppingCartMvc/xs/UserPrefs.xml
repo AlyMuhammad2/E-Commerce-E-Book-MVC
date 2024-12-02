@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{F5001577-BC72-4719-A300-461E318E9744}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BookShoppingCartMvcUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookShoppingCartMvcUI/appsettings.json">
+    <Files>
+      <File FileName="BookShoppingCartMvcUI/Data/DbSeeder.cs" Line="21" Column="38" />
+      <File FileName="BookShoppingCartMvcUI/appsettings.json" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookShoppingCartMvc" expanded="True">
+            <Node name="BookShoppingCartMvcUI" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

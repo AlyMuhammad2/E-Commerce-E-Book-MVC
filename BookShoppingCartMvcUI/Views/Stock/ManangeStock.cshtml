@@ -1,0 +1,47 @@
+﻿@model StockDTO
+@{
+    Layout = "_AdminLayout";
+}
+
+<div style="width:50%">
+<h2> Manage Stock </h2>
+<a asp-action="Index" asp-controller="Stock" class="btn btn-primary">Back</a>
+<form asp-action="ManangeStock">
+   <input type="hidden" asp-for="BookId" />
+
+   <div class="my-2">
+      <label>Quantity</label>
+      <input type="number" class="form-control" asp-for="Quantity" />
+      <span asp-validation-for="Quantity" class="text-danger"></span>
+   </div>
+
+   <div class="my-2">
+      <button type="submit" class="btn btn-info">Update</button>
+   </div>
+</form>
+</div>
+<style>
+    body {
+        background-color: rgb(250, 248, 245) !important;
+    }
+    .btn.btn-info,
+    .btn.btn-primary {
+        background: linear-gradient(90deg, rgba(64,89,111,1) 0%, rgba(17,44,68,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+        color: white;
+        border: none;
+    }
+    .btn.btn-info:hover,
+    .btn.btn-primary:hover {
+        background: linear-gradient(90deg, rgba(40,67,90,1) 0%, rgba(0,0,0,1) 100%);
+    }
+    .form-control,
+    .form-control:focus {
+        border-radius: 30px !important;
+        background-color: rgb(238,229,218);
+        border: none;
+        outline: none;
+        color: rgb(122, 94, 87);
+    }
+</style>

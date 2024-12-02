@@ -1,0 +1,217 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/obj/Release/net8.0/scopedcss/projectbundle/BookShoppingCartMvcUI.bundle.scp.css",
+      "PackagePath": "staticwebassets/BookShoppingCartMvcUI.hjgqnvuqhc.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/061b8aec-bdd5-446b-b3cd-233a36f322d1.jpg",
+      "PackagePath": "staticwebassets/images/061b8aec-bdd5-446b-b3cd-233a36f322d1.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/135338a3-9529-49c9-8272-1e5ba21bd1ef.jpeg",
+      "PackagePath": "staticwebassets/images/135338a3-9529-49c9-8272-1e5ba21bd1ef.jpeg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/1c751c1c-9e0a-496b-bbe6-3dc0be91894d.jpg",
+      "PackagePath": "staticwebassets/images/1c751c1c-9e0a-496b-bbe6-3dc0be91894d.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/3d-house.png",
+      "PackagePath": "staticwebassets/images/3d-house.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/3e949ab0-ca67-4bce-9000-7b364806fa90.jpg",
+      "PackagePath": "staticwebassets/images/3e949ab0-ca67-4bce-9000-7b364806fa90.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/4053016c-2cb2-41c8-ada1-6fc2f49964e8.jpg",
+      "PackagePath": "staticwebassets/images/4053016c-2cb2-41c8-ada1-6fc2f49964e8.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/44ccc897-d59f-44a7-acde-eb4607c1d5db.jpg",
+      "PackagePath": "staticwebassets/images/44ccc897-d59f-44a7-acde-eb4607c1d5db.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/4a6ef3f0-bfef-4d59-bd4d-050de0187827.jpg",
+      "PackagePath": "staticwebassets/images/4a6ef3f0-bfef-4d59-bd4d-050de0187827.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/4e158b1a-76dc-49e9-9af8-39063c3d2293.jpg",
+      "PackagePath": "staticwebassets/images/4e158b1a-76dc-49e9-9af8-39063c3d2293.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/4ee3e6a7-b48d-4faa-a243-708a0d50d98f.jpg",
+      "PackagePath": "staticwebassets/images/4ee3e6a7-b48d-4faa-a243-708a0d50d98f.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/508ccc11-33ba-474b-a92c-215dd56971df.jpg",
+      "PackagePath": "staticwebassets/images/508ccc11-33ba-474b-a92c-215dd56971df.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/5f3a9b62-c71c-4e27-b201-0d9a07897331.jpg",
+      "PackagePath": "staticwebassets/images/5f3a9b62-c71c-4e27-b201-0d9a07897331.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/65821428-e481-4365-8684-6a8dcfd33897.png",
+      "PackagePath": "staticwebassets/images/65821428-e481-4365-8684-6a8dcfd33897.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/6ab604d8-de0c-4859-a091-38eec96ed3ae.jpg",
+      "PackagePath": "staticwebassets/images/6ab604d8-de0c-4859-a091-38eec96ed3ae.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/76fe163d-22d1-4ec5-96b3-0bb9bb26ef52.jpg",
+      "PackagePath": "staticwebassets/images/76fe163d-22d1-4ec5-96b3-0bb9bb26ef52.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/8774c858-c1b1-48e7-90e6-a1e80ef77d35.jpg",
+      "PackagePath": "staticwebassets/images/8774c858-c1b1-48e7-90e6-a1e80ef77d35.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/8a8526be-8d17-479d-9786-981d509aa322.jpg",
+      "PackagePath": "staticwebassets/images/8a8526be-8d17-479d-9786-981d509aa322.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/94b6486e-b5b5-43a6-99a0-c7a48433b10e.jpg",
+      "PackagePath": "staticwebassets/images/94b6486e-b5b5-43a6-99a0-c7a48433b10e.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/97c09254-154d-41ae-8e61-b79c65906468.jpg",
+      "PackagePath": "staticwebassets/images/97c09254-154d-41ae-8e61-b79c65906468.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/NoImage.png",
+      "PackagePath": "staticwebassets/images/NoImage.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/a19dc0d0-7b9d-4ce5-84ae-d78273930a41.jpg",
+      "PackagePath": "staticwebassets/images/a19dc0d0-7b9d-4ce5-84ae-d78273930a41.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/b76b52c9-80ef-4c27-9a4c-b3dda44c63cc.png",
+      "PackagePath": "staticwebassets/images/b76b52c9-80ef-4c27-9a4c-b3dda44c63cc.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/background.jpg",
+      "PackagePath": "staticwebassets/images/background.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/bcacedce-447e-4a62-b7d1-1a77d1da6437.jpg",
+      "PackagePath": "staticwebassets/images/bcacedce-447e-4a62-b7d1-1a77d1da6437.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/be795358-1abe-43e4-b3fe-b44a9b31f216.jpg",
+      "PackagePath": "staticwebassets/images/be795358-1abe-43e4-b3fe-b44a9b31f216.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/bookss.png",
+      "PackagePath": "staticwebassets/images/bookss.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/c292b8f1-a29e-42ec-9bb6-3bc74d467365.jpeg",
+      "PackagePath": "staticwebassets/images/c292b8f1-a29e-42ec-9bb6-3bc74d467365.jpeg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/c8eeb489-8caf-4014-ae72-561e3f92e439.jpg",
+      "PackagePath": "staticwebassets/images/c8eeb489-8caf-4014-ae72-561e3f92e439.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/cb866ca5-babb-4d46-ac8c-e99b90e37800.jpg",
+      "PackagePath": "staticwebassets/images/cb866ca5-babb-4d46-ac8c-e99b90e37800.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/cca6d001-3459-4570-9a27-0e6fa6a22993.jpg",
+      "PackagePath": "staticwebassets/images/cca6d001-3459-4570-9a27-0e6fa6a22993.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/d7f6252e-ed0b-4ff2-84d9-1d059f2bb0f7.jpg",
+      "PackagePath": "staticwebassets/images/d7f6252e-ed0b-4ff2-84d9-1d059f2bb0f7.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/e3a46d6b-06c2-45c5-949d-3e965744fe1d.jpg",
+      "PackagePath": "staticwebassets/images/e3a46d6b-06c2-45c5-949d-3e965744fe1d.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/ef618c51-dee1-477f-a240-7bd2a751cd8a.jpeg",
+      "PackagePath": "staticwebassets/images/ef618c51-dee1-477f-a240-7bd2a751cd8a.jpeg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/efeb72b8-fe28-4aa2-af5c-2552bc065147.jpg",
+      "PackagePath": "staticwebassets/images/efeb72b8-fe28-4aa2-af5c-2552bc065147.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/exit.png",
+      "PackagePath": "staticwebassets/images/exit.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/f3e352be-bb0d-4a9f-a978-df13a2aabc4c.jpg",
+      "PackagePath": "staticwebassets/images/f3e352be-bb0d-4a9f-a978-df13a2aabc4c.jpg"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/hamburger.png",
+      "PackagePath": "staticwebassets/images/hamburger.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/hobbit.jfif",
+      "PackagePath": "staticwebassets/images/hobbit.jfif"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/inventory.png",
+      "PackagePath": "staticwebassets/images/inventory.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/market-segmentation.png",
+      "PackagePath": "staticwebassets/images/market-segmentation.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/purchase-order.png",
+      "PackagePath": "staticwebassets/images/purchase-order.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/search.png",
+      "PackagePath": "staticwebassets/images/search.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/top-rated.png",
+      "PackagePath": "staticwebassets/images/top-rated.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/trolley.png",
+      "PackagePath": "staticwebassets/images/trolley.png"
+    },
+    {
+      "Id": "/Users/nadaabdalrhman/Downloads/BookShoppingCart-Mvc-master/BookShoppingCartMvcUI/wwwroot/images/user.png",
+      "PackagePath": "staticwebassets/images/user.png"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.BookShoppingCartMvcUI.props",
+      "PackagePath": "build\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildMultiTargeting\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildTransitive\\BookShoppingCartMvcUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

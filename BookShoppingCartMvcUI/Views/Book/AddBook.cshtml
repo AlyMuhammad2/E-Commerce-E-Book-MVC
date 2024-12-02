@@ -1,0 +1,71 @@
+﻿@model BookDTO
+@{
+    Layout = "_AdminLayout";
+}
+<div style="width:50%">
+    <h2> Add Book </h2>
+    <a asp-action="Index" asp-controller="Book" class="btn btn-primary">Back</a>
+    <form asp-action="AddBook" enctype="multipart/form-data">
+
+        <div class="my-2">
+            <label>Book*</label>
+            <input type="text" class="form-control" asp-for="BookName" />
+            <span asp-validation-for="BookName" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label>Author*</label>
+            <input type="text" class="form-control" asp-for="AuthorName" />
+            <span asp-validation-for="AuthorName" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label>Genre*</label>
+            <select class="form-control" asp-for="GenreId" asp-items="Model.GenreList">
+                <option value="">Select Genre</option>
+            </select>
+            <span asp-validation-for="GenreId" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label>Price*</label>
+            <input type="number" class="form-control" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label>Image</label>
+            <input type="file" class="form-control" asp-for="ImageFile" />
+        </div>
+
+        <div class="my-2">
+            <button type="submit" class="btn btn-info">Add</button>
+        </div>
+    </form>
+</div>
+<style>
+    .btn.btn-primary,
+    .btn.btn-info {
+        background: linear-gradient(90deg, rgba(87,120,150,1) 0%, rgba(29,74,115,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+        color: white;
+    }
+    .btn.btn-primary:hover,
+    .btn.btn-info:hover {
+        background: linear-gradient(90deg, rgba(45,75,100,1) 0%, rgba(9,17,23,1) 100%);
+    }
+    .form-control,
+    .form-control:focus {
+        padding-left: 45px;
+        border-radius: 30px !important;
+        background-color: rgb(238,229,218);
+        border: none;
+        outline: none;
+        color: rgb(122, 94, 87);
+    }
+
+    .form-control::placeholder {
+        color: rgb(122, 94, 87);
+    }
+</style>

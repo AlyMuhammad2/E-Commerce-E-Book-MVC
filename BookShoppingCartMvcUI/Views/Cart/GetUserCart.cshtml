@@ -1,0 +1,140 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "GetUserCart";
+}
+
+<div style="width:90%;margin:auto" class="mt-2">
+    @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
+    {
+        <h5>My Cart</h5>
+
+        <table class="table table-striped">
+            <tr>
+                <th>Book</th>
+                <th>Image</th>
+                <th>Genre</th>
+                <th>Unit Price(INR)</th>
+                <th>Total Price</th>
+                <th>Action</th>
+            </tr>
+            @foreach (var item in Model.CartDetails)
+            {
+                <tr>
+                    <td>@item.Book.BookName</td>
+                    <td>
+                        @if (string.IsNullOrEmpty(item.Book.Image))
+                        {
+                            <img src="/images/NoImage.png" style="width:80px;height:100px" />
+                        }
+                        else
+                        {
+                            <img src="/images/@item.Book.Image" style="width:80px;height:100px" />
+                        }
+                    </td>
+                    <td>@item.Book.Genre.GenreName</td>
+                    <td>@item.Book.Price X @item.Quantity</td>
+                    <td>@(item.Book.Price * item.Quantity)</td>
+                    <td>
+                        @if (item.Quantity < item.Book.Stock.Quantity)
+                        {
+                            <a class="btn btn-info" href="/Cart/AddItem?bookId=@item.BookId&&redirect=1">+</a>
+                        }
+                        else
+                        {
+                            <span style="border: 1px solid;padding: 8px 8px;color: red;border-radius: 5px;margin-right:4px">Out of stock </span>
+                        }
+                        <a class="btn btn-info" href="/cart/removeitem?bookid=@item.BookId">-</a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <div class="my-2">
+            <h5>Total(INR): </h5>
+            @(Model.CartDetails.Select(item => item.Book.Price * item.Quantity).Sum())
+        </div>
+
+        <div class="my-2">
+            <a class="btn btn-primary" href="/Cart/Checkout">Checkout</a>
+        </div>
+
+    }
+    else
+    {
+        <h5>Cart is empty</h5>
+    }
+</div>
+<style>
+
+    .table-striped > tbody > tr:nth-of-type(odd) {
+        --bs-table-accent-bg: rgb(238,229,218) !important;
+    }
+
+    tr {
+        text-align: center;
+    }
+    .table-striped > tbody > tr:nth-of-type(odd) > * {
+        --bs-table-accent-bg: rgb(238,229,218) !important;
+    }
+    .table-striped > tbody > tr:nth-of-type(odd):hover > * {
+        --bs-table-accent-bg: #7a5e57 !important;
+        color: white !important;
+    }
+    tr: first-of-type {
+        background-color: rgb(238,229,218);
+        color: white;
+    }
+    tr:first-of-type > th {
+        color: #7a5e57 !important;
+    }
+
+    tr:hover {
+        background-color: #7a5e57 !important;
+        color: white ;
+    }
+
+    tr:hover th {
+        color: white !important;
+    }
+    tr:hover td {
+        color: white !important;
+    }
+    td {
+        vertical-align: middle;
+    }
+
+    .btn.btn-info {
+        background: linear-gradient(90deg, rgba(64,89,111,1) 0%, rgba(17,44,68,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+        color: white;
+        border: none;
+    }
+
+        .btn.btn-info:hover {
+            background: linear-gradient(90deg, rgba(40,67,90,1) 0%, rgba(0,0,0,1) 100%);
+        }
+
+    .btn.btn-success,
+    .btn.btn-danger {
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+    }
+
+    .btn.btn-primary {
+        background: linear-gradient(90deg, rgba(87,120,150,1) 0%, rgba(29,74,115,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+    }
+
+    .btn.btn-primary:hover {
+        background: linear-gradient(90deg, rgba(45,75,100,1) 0%, rgba(9,17,23,1) 100%);
+    }
+    .my-2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #7a5e57;
+    }
+</style>
+
+

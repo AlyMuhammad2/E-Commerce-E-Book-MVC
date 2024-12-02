@@ -1,0 +1,110 @@
+﻿@model IEnumerable<Book>
+@{
+    Layout = "_AdminLayout";
+}
+
+<h2>Books</h2>
+
+<a asp-action="AddBook" asp-controller="Book" class="btn btn-primary">Add More</a>
+
+@if(Model?.Count()>0)
+{
+    <table class="table table-striped my-2">
+        <tr>
+            <th>Image</th>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>
+                    @if(string.IsNullOrWhiteSpace(book.Image))
+                    {
+                        <img src="/Images/NoImage.png" style="width:80px;height:100px" alt="book image" />
+                    }
+                    else
+                    {
+                        <img src="/images/@book.Image" style="width:80px;height:100px" alt="book image" />
+                    }
+                </td>
+                <td>@book.BookName</td>
+                <td>@book.AuthorName</td>
+                <td>@book.Genre.GenreName</td>
+                <td>@book.Price</td>
+                <td>
+                    <a asp-action="UpdateBook" asp-controller="Book" asp-route-id="@book.Id" class="btn btn-success">Edit</a>
+                    <a asp-action="DeleteBook" asp-controller="Book" asp-route-id="@book.Id" class="btn btn-danger" onclick="return window.confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <h3>No records</h3>
+}
+<style>
+    body {
+        background-color: rgb(250, 248, 245) !important;
+    }
+    .table-striped > tbody > tr:nth-of-type(odd) {
+        --bs-table-accent-bg: rgb(238,229,218);
+    }
+    .table-striped > tbody > tr:nth-of-type(odd):hover {
+        --bs-table-accent-bg: #7a5e57;
+        color: white;
+    }
+    tr {
+        text-align: center;
+    }
+
+    tr:first-of-type {
+        background-color: rgb(238,229,218);
+    }
+
+    th {
+        color: #7a5e57;
+    }
+
+    tr:hover {
+        background-color: #7a5e57;
+        color: white;
+    }
+
+    tr:hover th {
+        color: white;
+    }
+    td {
+        vertical-align: middle;
+    }
+    .btn.btn-info {
+        background: linear-gradient(90deg, rgba(64,89,111,1) 0%, rgba(17,44,68,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+        color: white;
+        border: none;
+    }
+
+    .btn.btn-info:hover {
+        background: linear-gradient(90deg, rgba(40,67,90,1) 0%, rgba(0,0,0,1) 100%);
+    }
+    .btn.btn-success,
+    .btn.btn-danger {
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+    }
+    .btn.btn-primary {
+        background: linear-gradient(90deg, rgba(87,120,150,1) 0%, rgba(29,74,115,1) 100%);
+        border-radius: 6px 20px;
+        padding: 5px 20px;
+    }
+
+    .btn.btn-primary:hover {
+        background: linear-gradient(90deg, rgba(45,75,100,1) 0%, rgba(9,17,23,1) 100%);
+    }
+</style>
